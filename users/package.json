@@ -1,0 +1,16 @@
+{
+  "name": "users",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --exec 'mocha --exit -R min'"
+  },
+  "author": "Eric J. Sturman <ejstur@monsanto.com> (http://www.monsanto.com)",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^5.0.5",
+    "mongoose": "^5.0.12",
+    "nodemon": "^1.17.2"
+  }
+}
